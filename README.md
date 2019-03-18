@@ -6,7 +6,7 @@ Build and Run the Local Config Server
 ```bash
 cd configuration-service
 ./gradlew build
-java -jar build/libs/configuration-service-0.0.1-SNAPSHOT.jar
+java -jar build/libs/configuration-service-0.0.1.jar
 ```
 
 Verify the Local Config Server is Up
