@@ -1,0 +1,6 @@
+message: joe
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
