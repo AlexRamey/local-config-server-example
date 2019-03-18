@@ -4,3 +4,8 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
+
+# Here is a useful link if you wish to vary the config server based on the active profile:
+# https://stackoverflow.com/questions/36934873/set-profile-on-bootstrap-yml-in-spring-cloud-to-target-different-config-server
+# For example, one could point to the local server if the current profile is 'local' and
+# to an actual cloud-hosted config server for other profiles like 'qa' or 'prod'.
