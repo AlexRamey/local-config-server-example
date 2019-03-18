@@ -51,6 +51,7 @@ You can hot reload the config at any time:
 
 which is useful when you want to change the config and see those changes reflected without restarting the application.
 
-References:
-https://spring.io/guides/gs/rest-service/
-https://spring.io/guides/gs/centralized-configuration/
+## References
+
+1. https://spring.io/guides/gs/rest-service/
+1. https://spring.io/guides/gs/centralized-configuration/
