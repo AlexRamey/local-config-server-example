@@ -14,7 +14,7 @@ public class GreetingController {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
-    @Value("${message:World}")
+    @Value("${name:World}")
     private String defaultValue;
 
     @RequestMapping("/greeting")
