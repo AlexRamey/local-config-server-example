@@ -1,4 +1,4 @@
-name: fred-release-snapshot
+name: fred-post-release
 management:
   endpoints:
     web:
