@@ -17,12 +17,18 @@ public class GreetingController {
     @Value("${name:World}")
     private String defaultValue;
 
+    @Value("${age:defaultAge}")
+    private String age;
+
+    @Value("${weight:defaultWeight}")
+    private String weight;
+
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(required=false) String name) {
         if (name == null) {
             name = this.defaultValue;
         } 
         return new Greeting(counter.incrementAndGet(),
-                            String.format(template, name));
+                            String.format(template, name), age, weight);
     }
 }
